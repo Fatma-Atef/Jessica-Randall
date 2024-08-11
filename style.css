@@ -1,0 +1,52 @@
+body{
+    background: hsl(0, 0%, 8%);
+    text-align: center;
+}
+
+.card{
+    background: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    display: inline-block;
+    height: 600px;
+    width: 500px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.img{
+    border-radius: 100%;
+    margin-top: 40px;
+    width: 90px;
+    height: 90px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.title{
+    color:hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+.des{
+    font-size: 14px;
+    margin-left: 65px;
+    margin-right: 65px;
+    color: hsl(0, 0%, 20%);
+    margin-top: 16px;
+}
+.btn{
+    outline: none;
+    background: hsl(0, 0%, 20%);
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 400px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    border-radius: 11px;
+    display: inline-block;
+}
+.btn:hover{
+    color: hsl(0, 0%, 100%);
+    background: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
